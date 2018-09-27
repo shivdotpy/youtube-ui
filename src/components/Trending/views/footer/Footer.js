@@ -40,8 +40,8 @@ export default class Footer extends Component {
 const styles = StyleSheet.create({
     container: {
         height: 50,
-        borderTopColor: '#cccccc',
-        borderTopWidth: 0.2,
+        borderTopColor: '#D3D3D3',
+        borderTopWidth: 0.5,
         flexDirection: 'row',
         justifyContent: 'space-around',
         alignItems: 'center'

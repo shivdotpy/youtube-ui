@@ -4,7 +4,7 @@ import Header from '../Common/header/Header'
 import Footer from './views/footer/Footer'
 import Body from './views/body/Body'
 
-export default class Home extends Component {
+export default class Trending extends Component {
 
     static navigationOptions = { title: 'Welcome', header: null };
     render() {
