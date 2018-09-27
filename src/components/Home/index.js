@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import { Text, View, StyleSheet } from 'react-native'
+import { Text, View, StyleSheet, ScrollView } from 'react-native'
 import Header from './views/header/Header'
 import Footer from './views/footer/Footer'
+import Body from './views/body/Body'
 
 export default class Home extends Component {
 
@@ -12,9 +13,9 @@ export default class Home extends Component {
             <View>
                 <Header />
             </View>
-            <View style={{flex: 1}}>
-                <Text>Body</Text>
-            </View>
+            <ScrollView style={{flex: 1}} showsVerticalScrollIndicator={false}>
+                <Body />
+            </ScrollView>
             <View>
                 <Footer />
             </View>

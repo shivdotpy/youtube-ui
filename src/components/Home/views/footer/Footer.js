@@ -6,7 +6,7 @@ export default class Footer extends Component {
   render() {
     return (
       <View style={styles.container}>
-      
+
         <TouchableOpacity>
             <Icon name="home" type="entypo" size={23} color="#ff0000"/>
             <Text style={{color: "#ff0000"}}>Home</Text>
@@ -40,8 +40,8 @@ export default class Footer extends Component {
 const styles = StyleSheet.create({
     container: {
         height: 50,
-        borderTopColor: '#cccccc',
-        borderTopWidth: 0.4,
+        borderTopColor: '#D3D3D3',
+        borderTopWidth: 0.5,
         flexDirection: 'row',
         justifyContent: 'space-around',
         alignItems: 'center'
